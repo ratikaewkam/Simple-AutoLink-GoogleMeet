@@ -3,7 +3,8 @@ import pyautogui
 import time
 from pyscreeze import locateOnScreen
 
-webbrowser.open_new_tab('Link')
+web_link = 'Link'
+webbrowser.open_new_tab(web_link)
 time.sleep(5)
 
 pyautogui.hotkey('ctrl','e')
