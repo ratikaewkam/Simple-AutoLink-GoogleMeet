@@ -22,6 +22,7 @@ import webbrowser
 
 * เขียนโปรแกรมเพื่อเปิดลิงค์ที่ต้องการ
 ```python
+web_link = 'Link'
 webbrowser.open_new_tab('Link') #ใส่ลิงค์ google meet
 ```
 
